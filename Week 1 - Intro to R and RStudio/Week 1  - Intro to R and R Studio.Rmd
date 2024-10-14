@@ -1,0 +1,55 @@
+---
+title: "Week 1 - Intro to R and RStudio"
+author: "Tucker Keuter"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Motivating example
+
+## Why are we here?
+- What do you want to learn?
+- What do you think you'll learn?
+- How do you think this will help you with your job?
+
+## Goals
+- Solve a real business problem that you are facing
+    - Improve a process, automate work, build a complex visualization
+- Become comfortable using R/RStudio and know where to get help if you need it
+
+## Why do we build with code?
+- Flexibility/Power | if you can dream it, you can do it
+- Readability | well-written and structured code can be understood at a glance
+- Efficiency | limited computational overhead going to a user interface
+- Version Control | easy to track changes and return to previous versions with a tool like GitHub
+
+
+## What is R?
+- R is a programming language like SQL or C++ or Python
+- R was built specifically for doing statistical analysis
+- R is Open Source
+- Created in 2000
+- Very strong/supportive community of developers
+- Large library of packages for accomplishing anything you can think of 
+
+## What is RStudio?
+- RStudio is an Integrated Development Environment (IDE)
+- Other IDEs include Visual Studio, XCode or Toad
+- RStudio allows you to interact with your computing environment, console, script, created visualizations, and many other tools directly in a single interface
+- Without an IDE, you would be writing code in Notepad and using command prompt to execute it
+- IDEs also have many quality of life features like syntax/error checking, code highlighting, code formatting and many others
+
+# Resources
+- R for Data Science (https://r4ds.hadley.nz/)
+- The Charter Data Science Team (Tucker Keuter, Ian Mbuthia, Dason Kurkiewicz, Sabryn Bley)
+
+
+
+# Tour of RStudio
+
+
+
