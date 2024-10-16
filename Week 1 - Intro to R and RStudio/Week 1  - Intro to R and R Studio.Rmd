@@ -9,7 +9,8 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Motivating example
+## Fun example
+- Wordcloud
 
 ## Why are we here?
 - What do you want to learn?
@@ -17,9 +18,9 @@ knitr::opts_chunk$set(echo = FALSE)
 - How do you think this will help you with your job?
 
 ## Goals for this course
+- Become comfortable using R/RStudio and know where to get help if you need it
 - Solve a real business problem that you are facing
     - Improve a process, automate work, build a complex visualization
-- Become comfortable using R/RStudio and know where to get help if you need it
 
 ## Why do we build with code?
 - Flexibility/Power | if you can dream it, you can do it
@@ -42,6 +43,15 @@ knitr::opts_chunk$set(echo = FALSE)
 - RStudio allows you to interact with your computing environment, console, script, created visualizations, and many other tools directly in a single interface
 - Without an IDE, you would be writing code in Notepad and using command prompt to execute it
 - IDEs also have many quality of life features like syntax/error checking, code highlighting, code formatting and many others
+
+## Why R?
+- R and Python are the de facto programming languages of Data Science
+- 90+% of tasks can be completed equally well in either language
+- R tends to be preferred for both data cleaning/prep as well as visualization
+- Python tends to be preferred for AI, Deep Learning, more computationally intensive applications
+- Ian, Dason, and Tucker are experts in R, less so in Python
+- Much of what you learn about programming is transferrable no matter what language you start with
+    - Your second, third, fourth, etc spoken languages getting incrementally easier
 
 # Resources
 - R for Data Science (https://r4ds.hadley.nz/)
