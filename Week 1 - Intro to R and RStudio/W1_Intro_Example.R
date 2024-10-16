@@ -20,15 +20,17 @@ p_funs(tm)
 # form. The pacman package offers lots of ways to get information
 # about packages and it can provide a list of vignettes that packages
 # have available
-#p_vignette(getwiki)
+#p_vignette(getwiki)      
 
 
 # Feel free to choose what article you want
 text <- get_wiki("Data science")
-#text <- get_wiki("Steel")
-#text <- random_wiki(); print(names(text)) # Get random wiki article and print the name
+# text <- get_wiki("Steel")
+# text <- get_wiki("Electric arc furnace")
 
-output <- text |>
+# text <- random_wiki(); print(names(text)) # Get random wiki article and print the name
+
+output <- text |>                  
   list() |>
   VectorSource() |>
   SimpleCorpus() |>
