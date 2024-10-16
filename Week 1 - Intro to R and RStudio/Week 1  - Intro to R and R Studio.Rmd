@@ -51,7 +51,10 @@ knitr::opts_chunk$set(echo = FALSE)
 - google
 - ChatGPT
 
-
+# Goals for today
+- Ensure everyone has access to R/RStudio, installations were successful
+- Tour RStudio
+- Test functionality of R with some simple scripts
 
 # Tour of RStudio
 
