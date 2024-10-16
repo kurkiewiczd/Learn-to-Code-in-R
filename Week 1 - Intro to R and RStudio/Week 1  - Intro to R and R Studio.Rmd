@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - What do you think you'll learn?
 - How do you think this will help you with your job?
 
-## Goals
+## Goals for this course
 - Solve a real business problem that you are facing
     - Improve a process, automate work, build a complex visualization
 - Become comfortable using R/RStudio and know where to get help if you need it
@@ -46,9 +46,10 @@ knitr::opts_chunk$set(echo = FALSE)
 # Resources
 - R for Data Science (https://r4ds.hadley.nz/)
 - The Charter Data Science Team (Tucker Keuter, Ian Mbuthia, Dason Kurkiewicz, Sabryn Bley)
-
-
-# Base R vs Tidyverse
+- ?help in R
+- stackoverflow
+- google
+- ChatGPT
 
 
 
