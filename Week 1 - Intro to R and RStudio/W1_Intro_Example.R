@@ -25,10 +25,11 @@ p_funs(tm)
 
 # Feel free to choose what article you want
 text <- get_wiki("Data science")
-# text <- get_wiki("Steel")
-# text <- get_wiki("Electric arc furnace")
+text <- get_wiki("Steel")
+text <- get_wiki("Electric arc furnace")
 
-# text <- random_wiki(); print(names(text)) # Get random wiki article and print the name
+
+text <- random_wiki(); print(names(text)) # Get random wiki article and print the name
 
 output <- text |>                  
   list() |>

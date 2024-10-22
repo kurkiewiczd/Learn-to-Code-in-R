@@ -9,8 +9,12 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Fun example
-- Wordcloud
+## Kickoff Activity
+- This is a timed activity, don't start until we start the timer
+- Directions:
+    - Find a Wikipedia article of your choosing
+    - Using a tool of your choice, build a wordcloud of the text of that Wikipedia article
+- Any questions?
 
 ## Why are we here?
 - What do you want to learn?
@@ -53,7 +57,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Much of what you learn about programming is transferrable no matter what language you start with
     - Your second, third, fourth, etc spoken languages getting incrementally easier
 
-# Resources
+## Resources
 - R for Data Science (https://r4ds.hadley.nz/)
 - The Charter Data Science Team (Tucker Keuter, Ian Mbuthia, Dason Kurkiewicz, Sabryn Bley)
 - ?help in R
@@ -61,12 +65,12 @@ knitr::opts_chunk$set(echo = FALSE)
 - google
 - ChatGPT
 
-# Goals for today
+## Goals for today
 - Ensure everyone has access to R/RStudio, installations were successful
 - Tour RStudio
 - Test functionality of R with some simple scripts
 
-# Tour of RStudio
+## Tour of RStudio
 
 
 
