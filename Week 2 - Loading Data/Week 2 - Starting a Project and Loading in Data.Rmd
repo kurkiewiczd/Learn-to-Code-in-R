@@ -65,3 +65,14 @@ output: ioslides_presentation
 - Write this new data to a file called `'bigDataNew.csv'`
 
 
+## Application
+- Go find some data that you have been using recently or use frequently
+- Read it into R
+- 
+
+
+
+
+
+
+
