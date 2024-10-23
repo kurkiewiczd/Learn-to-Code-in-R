@@ -6,7 +6,7 @@ output: ioslides_presentation
 ---
 
 ## Kickoff Activity
-- Open the file bigData.csv with the tool of your choice
+- Open the file `bigData.csv` with the tool of your choice
     - What tool did you use?
     - How long does it take to open?
     - How many rows does it have?
@@ -17,8 +17,7 @@ output: ioslides_presentation
 - An R project simply a folder where all scripts, data, and other content related to your project will exist
 - Using the command `getwd()` aka "get working directory" will tell you which folder or project you are in
 - Think of projects like rooms in a house and all your project content is stuff in that room
-    - If you ask for your water bottle and there is one in the room you are in, that is likely the water bottle you are talking about
-    - Even if there is a water bottle in a different room
+    - If you ask for your water bottle and there is one in the room you are in, that is likely the water bottle you are talking about even if there is a water bottle in a different room
 - You can also reference other folders inside of your room, i.e. (In my house, in the living room, in the bottom right desk drawer there is a piece of paper I need)
     - `home/livingRoom/desk/bottomRightDrawer/paper.txt`
     
