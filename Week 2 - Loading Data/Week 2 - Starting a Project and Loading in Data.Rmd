@@ -29,19 +29,19 @@ output: ioslides_presentation
 - Location
 - Create a new script called `readingInData.R`
 
-## Reading In Data
-- There are several ways to get data into R
-    - Read in a `.csv` file
-        - `read.csv('bigData.csv')` (base)
-        - `read_csv('bigData.csv')` (tidyverse)
-    - Read in a `.xlsx` file (readxl)
-        - `read_xlsx('bigData.xlsx')` (tidyverse)
-    - Read in a `.rds` file (base)
-        - `readRDS('bigData.rds')` (base)
-    - Connect to a database (odbc, rdbc, etc) - Out of Scope
+<!-- ## Reading In Data -->
+<!-- - There are several ways to get data into R -->
+<!--     - Read in a `.csv` file -->
+<!--         - `read.csv('bigData.csv')` (base) -->
+<!--         - `read_csv('bigData.csv')` (tidyverse) -->
+<!--     - Read in a `.xlsx` file (readxl) -->
+<!--         - `read_xlsx('bigData.xlsx')` (tidyverse) -->
+<!--     - Read in a `.rds` file (base) -->
+<!--         - `readRDS('bigData.rds')` (base) -->
+<!--     - Connect to a database (odbc, rdbc, etc) - Out of Scope -->
 
-- On read in, you should assign a name to the data you are reading in
-    - `data = read.csv('bigData.csv')`
+<!-- - On read in, you should assign a name to the data you are reading in -->
+<!--     - `data = read.csv('bigData.csv')` -->
     
 ## Reading in Data
 - Move the `bigData.csv` file into your working directory
@@ -53,16 +53,15 @@ output: ioslides_presentation
     - What is the mean of your data?
     - What is the median of your data?
     
-## Writing Data
-- Data is commonly written from R in either `.csv` or `.rds` format
-- All the functions for reading in data above have analogues for writing data
-    - `write.csv('bigData.csv)`
-    - `saveRDS('bigData.rds)`
+<!-- ## Writing Data -->
+<!-- - Data is commonly written from R in either `.csv` or `.rds` format -->
+<!-- - All the functions for reading in data above have analogues for writing data -->
+<!--     - `write.csv('bigData.csv)` -->
+<!--     - `saveRDS('bigData.rds)` -->
     
 ## Writing Data
 - Add 10 to every value in `'bigData.csv'`
 - Write this new data to a file called `'bigDataNew.csv'`
-
 
 ## Application
 - Go find some data that you have been using recently or use frequently
