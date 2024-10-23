@@ -68,7 +68,8 @@ output: ioslides_presentation
 ## Application
 - Go find some data that you have been using recently or use frequently
 - Read it into R
-- 
+- Make a change to it
+- Write it out with a new name
 
 
 
