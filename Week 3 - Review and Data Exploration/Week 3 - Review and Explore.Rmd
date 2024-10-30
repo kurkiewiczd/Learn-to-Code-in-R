@@ -19,3 +19,105 @@ knitr::opts_chunk$set(echo = FALSE)
     - If you ask for your water bottle and there is one in the room you are in, that is likely the water bottle you are talking about even if there is a water bottle in a different room
 - You can also reference other folders inside of your room, i.e. (In my house, in the living room, in the bottom right desk drawer there is a piece of paper I need)
     - `home/livingRoom/desk/bottomRightDrawer/paper.txt`
+
+    
+## Starting a Project
+- We are going to start a new project for this class
+- File -> New Project
+- New/Existing Directory
+- Name
+- Location
+- Create a new script called `readingInData.R`
+
+    
+## Reading in Data
+- Move the `Inventory.csv` file into your working directory
+- Read `Inventory.csv` into R
+    - Look at the head and tail of your data
+    - How many rows does it have?
+    - Let's look at Quantity
+    - What is the largest value in your data?
+    - What is the smallest value in your data?
+    - What is the mean of your data?
+    - What is the median of your data?
+    - Did we run into any problems?
+    
+## Let's get help
+- Did we run into any issues?
+- How do we deal with NAs?
+    
+## Code
+
+```{r activity_complete1, include=TRUE, echo=TRUE}
+getwd()
+shortPathName(getwd())
+
+# I'll use an absolute path.
+fileloc_inventory <- "C:/Users/kurkiewiczd/Projects/Learn-to-Code-in-R/Week 3 - Review and Data Exploration/Data/Inventory.csv"
+
+```
+## Code
+
+```{r activity_complete2, include=TRUE, echo=TRUE}
+inv <- read.csv(fileloc_inventory)
+#inv <- readr::read_csv(fileloc_inventory)
+head(inv)
+tail(inv)
+```
+## Code
+```{r activity_complete3, include=TRUE, echo=TRUE}
+str(inv)
+```
+## Code
+```{r activity_complete4, include=TRUE, echo=TRUE}
+dim(inv)
+nrow(inv)
+ncol(inv)
+```
+## Code
+```{r activity_complete6, include=TRUE, echo=TRUE}
+hist(inv$Quantity)
+
+```
+
+## Code
+```{r activity_complete5, include=TRUE, echo=TRUE}
+table(inv$Quantity)
+
+```
+
+    
+## Writing Data
+- Convert Quantity so that it represents 1000s of units
+- Write this new data to a file called `Inventory_Updated.csv`
+
+## Working with selection
+- Grabbing columns
+- Grabbing rows
+- Grabbing rows that meet certain conditions
+- We have other ways to do this stuff but it's good to know base R
+- tibble vs data.frame
+- base R vs tidyverse
+
+## Code
+```{r activity_complete7, include=TRUE, echo=TRUE}
+inv[1,]
+inv[,1]
+inv[1,1]
+inv$Quantity[1]
+inv[1, "Quantity"]
+inv[which.max(inv$Quantity), ]
+inv[inv$Quantity == max(inv$Quantity, na.rm = TRUE),]
+inv[TRUE,]
+inv[FALSE,]
+
+```
+
+## Getting Help
+```{r activity_complete8, include=TRUE, echo=TRUE}
+?max
+#install.packages("pacman")
+library(pacman)
+?p_load
+p_load
+```
