@@ -114,10 +114,23 @@ inv[FALSE,]
 ```
 
 ## Getting Help
+- Help System
+- swirl
+
 ```{r activity_complete8, include=TRUE, echo=TRUE}
 ?max
 #install.packages("pacman")
 library(pacman)
 ?p_load
 p_load
+```
+
+## Documentation
+- Help files
+- Source code
+- Vignettes
+
+## Code
+```{r activity_complete9, include=TRUE, echo=TRUE}
+p_vign("docstring")
 ```
