@@ -1,0 +1,21 @@
+---
+title: "Week 3 - Review of basics and data exploration"
+author: "Dason Kurkiewicz"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Intro Activity
+- Homework from last week
+
+## Homework
+- An R project simply a folder where all scripts, data, and other content related to your project will exist
+- Using the command `getwd()` aka "get working directory" will tell you which folder or project you are in
+- Think of projects like rooms in a house and all your project content is stuff in that room
+    - If you ask for your water bottle and there is one in the room you are in, that is likely the water bottle you are talking about even if there is a water bottle in a different room
+- You can also reference other folders inside of your room, i.e. (In my house, in the living room, in the bottom right desk drawer there is a piece of paper I need)
+    - `home/livingRoom/desk/bottomRightDrawer/paper.txt`
