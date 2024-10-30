@@ -49,40 +49,6 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Code
 
 ```{r activity_complete1, include=TRUE, echo=TRUE}
-getwd()
-shortPathName(getwd())
-
-# I'll use an absolute path.
-fileloc_inventory <- "C:/Users/kurkiewiczd/Projects/Learn-to-Code-in-R/Week 3 - Review and Data Exploration/Data/Inventory.csv"
-
-```
-## Code
-
-```{r activity_complete2, include=TRUE, echo=TRUE}
-inv <- read.csv(fileloc_inventory)
-#inv <- readr::read_csv(fileloc_inventory)
-head(inv)
-tail(inv)
-```
-## Code
-```{r activity_complete3, include=TRUE, echo=TRUE}
-str(inv)
-```
-## Code
-```{r activity_complete4, include=TRUE, echo=TRUE}
-dim(inv)
-nrow(inv)
-ncol(inv)
-```
-## Code
-```{r activity_complete6, include=TRUE, echo=TRUE}
-hist(inv$Quantity)
-
-```
-
-## Code
-```{r activity_complete5, include=TRUE, echo=TRUE}
-table(inv$Quantity)
 
 ```
 
@@ -101,15 +67,7 @@ table(inv$Quantity)
 
 ## Code
 ```{r activity_complete7, include=TRUE, echo=TRUE}
-inv[1,]
-inv[,1]
-inv[1,1]
-inv$Quantity[1]
-inv[1, "Quantity"]
-inv[which.max(inv$Quantity), ]
-inv[inv$Quantity == max(inv$Quantity, na.rm = TRUE),]
-inv[TRUE,]
-inv[FALSE,]
+
 
 ```
 
@@ -118,11 +76,7 @@ inv[FALSE,]
 - swirl
 
 ```{r activity_complete8, include=TRUE, echo=TRUE}
-?max
-#install.packages("pacman")
-library(pacman)
-?p_load
-p_load
+
 ```
 
 ## Documentation
@@ -132,5 +86,6 @@ p_load
 
 ## Code
 ```{r activity_complete9, include=TRUE, echo=TRUE}
-p_vign("docstring")
+
+
 ```
